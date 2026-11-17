@@ -6,7 +6,7 @@ const sumAll = function(first , last) {
   } 
   
   let arr = [first]
-  if (first >= 0 && last >= 0) {
+  if (first >= 0 && last >= 0 && first % 1 === 0 && last % 1 === 0 && typeof first === "number" && typeof last === "number") {
     
     for (let i = first; i < last; i++) {
       first = first +1
